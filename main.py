@@ -58,7 +58,7 @@ async def on_message(message):
                 await message.channel.send('No user specified')
             else:
                 user = mention_list[0]
-                score = round(users[str(user.id)]['score'] / (users[str(user.id)]['total_messages'] * 100, 2)
+                score = round(users[str(user.id)]['score'] / users[str(user.id)]['total_messages'] * 100, 2)
                 await  message.channel.send(user.name + "'s" + ' behaviour score is: ' + str(score))
         
 
