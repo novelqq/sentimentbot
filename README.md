@@ -1,5 +1,6 @@
 # sentimentbot
 Discord bot that evaluates user messages for positivity and tracks  calculated behavior scores for each user using [TextBlob](https://textblob.readthedocs.io) and [discord.py](https://discordpy.readthedocs.io/en/latest/)
+
 ![alt text](https://raw.githubusercontent.com/novelqq/sentimentbot/master/sentiment_example.JPG)
 ## Installation
 ```
